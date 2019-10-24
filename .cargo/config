@@ -1,0 +1,7 @@
+# in .cargo/config
+
+[target.'cfg(target_os = "none")']
+runner = "bootimage runner"
+
+[build]
+target = "x86_64-iron_os.json"
